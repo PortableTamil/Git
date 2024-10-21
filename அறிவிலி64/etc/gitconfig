@@ -17,4 +17,4 @@
 	process = git-lfs filter-process
 	required = true
 [credential]
-	helper = !\"../mingw64/libexec/git-core/git-credential-wincred.exe\"
+	helper = helper-selector
